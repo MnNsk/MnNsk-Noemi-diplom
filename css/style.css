@@ -8,14 +8,14 @@ body {
   
   @font-face {
     font-family: 'Open Sans';
-    src: url(../fonts/OpenSans-Regular.woff);  
+    src: url("../fonts/OpenSans-Regular.woff");  
     font-weight: 400;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'Open Sans';
-    src: url(../fonts/OpenSans-Bold.woff);  
+    src: url("../fonts/OpenSans-Bold.woff");  
     font-weight: 700;
     font-style: normal;
   }
@@ -43,7 +43,7 @@ body {
   
   .header {
     position: relative;
-    background-image: url(../img/banner-bg.jpg);
+    background-image: url("../img/banner-bg.jpg");
     background-color: #000000;
     background-repeat: no-repeat;
     background-position: center center;
@@ -434,7 +434,7 @@ body {
     height: 100%;
     border: none;
     background-color: #b59f5b;
-    background-image: url(../svg/search.svg);
+    background-image: url("../svg/search.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 15px;
@@ -563,7 +563,7 @@ body {
     box-sizing: border-box;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-image: url(/svg/form-arrows.svg );
+    background-image: url("/svg/form-arrows.svg");
     background-repeat: no-repeat;
     background-position: right 15px center;
     background-size: auto 15px;
@@ -587,7 +587,7 @@ body {
      vertical-align: middle;
      width: 15px;
      height: 15px;
-     background-image: url(/svg/form-empty-circle.svg);
+     background-image: url("/svg/form-empty-circle.svg");
      background-repeat: no-repeat;
      background-position: center center;
      background-size: 15px;
@@ -595,7 +595,7 @@ body {
   }
 
   .radio-input:checked + .radio-text::before {
-    background-image: url(/svg/form-circle.svg);
+    background-image: url("/svg/form-circle.svg");
   }
 
   label.radio-text {
@@ -621,7 +621,7 @@ body {
    .popup-close {
     width: 15px;
     height: 15px;
-    background-image: url(/svg/form-x.svg);
+    background-image: url("/svg/form-x.svg");
     background-color: transparent;
     border: none;
     position: absolute;
@@ -856,19 +856,19 @@ body {
   }
   
   .icon_dribble {
-    background-image: url(../svg/001-dribbble.svg);
+    background-image: url("../svg/001-dribbble.svg");
     background-repeat: no-repeat;
     background-position: center center;
   }
   
   .icon_pinterest {
-    background-image: url(../svg/002-pinterest.svg);
+    background-image: url("../svg/002-pinterest.svg");
     background-repeat: no-repeat;
     background-position: center center;
   }
   
   .icon_tumblr {
-    background-image: url(../svg/003-tumblr.svg);
+    background-image: url("../svg/003-tumblr.svg");
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -882,7 +882,7 @@ body {
     color: #999999;
   }
 
-  @media (min-width: 768px) and (max-width: 1199px) {
+  @media (min-width: 641px) and (max-width: 1199px) {
     .head_start {
       max-width: 700px;
     }
@@ -897,7 +897,7 @@ body {
       display: inline-block;
       width: 23px;
       height: 20px;
-      background-image: url(/svg/Shape\ 4\ copy.svg);
+      background-image: url("/svg/Shape 4 copy.svg");
     }
 
     .cont-trends {
