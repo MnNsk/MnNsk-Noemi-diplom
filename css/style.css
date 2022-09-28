@@ -883,6 +883,8 @@ label.radio-text {
   color: #999999;
 }
 
+/* Стили на планшет */
+
 @media (min-width: 641px) and (max-width: 1199px) {
 
   .head_start {
@@ -903,7 +905,7 @@ label.radio-text {
     display: inline-block;
     width: 23px;
     height: 20px;
-    background-image: url("/svg/Shape 4 copy.svg");
+    background-image: url("../svg/Shape 4 copy.svg");
   }
 
   .cont-trends {
@@ -936,10 +938,25 @@ label.radio-text {
     flex-direction: column;
   }
 
-  .good, .good:nth-child(3n+2), .good:first-child {
-    width: 38%;
+  .good-cont {
     margin: auto;
   }
+
+  .good {
+    width: 25%; 
+  }
+
+  .good:nth-child(3n+2), .good:first-child {
+    margin: 0;
+  }
+
+  .good:nth-child(odd) {
+    margin-right: 1%;
+  }
+
+  .good:nth-child(even) {
+    margin-left: 1%;
+  } 
 
   .good-body {
     outline-offset: 20px;
