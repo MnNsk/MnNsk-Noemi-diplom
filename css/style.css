@@ -622,7 +622,7 @@ label.radio-text {
  .popup-close {
   width: 15px;
   height: 15px;
-  background-image: url("/svg/form-x.svg");
+  background-image: url("../svg/form-x.svg");
   background-color: transparent;
   border: none;
   position: absolute;
