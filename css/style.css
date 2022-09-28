@@ -588,7 +588,7 @@ display: flex;
    vertical-align: middle;
    width: 15px;
    height: 15px;
-   background-image: url("/svg/form-empty-circle.svg");
+   background-image: url("../svg/form-empty-circle.svg");
    background-repeat: no-repeat;
    background-position: center center;
    background-size: 15px;
@@ -596,7 +596,7 @@ display: flex;
 }
 
 .radio-input:checked + .radio-text::before {
-  background-image: url("/svg/form-circle.svg");
+  background-image: url("../svg/form-circle.svg");
 }
 
 label.radio-text {
