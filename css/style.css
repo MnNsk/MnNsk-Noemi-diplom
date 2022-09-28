@@ -564,7 +564,7 @@ display: flex;
   box-sizing: border-box;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url("/svg/form-arrows.svg");
+  background-image: url("../svg/form-arrows.svg");
   background-repeat: no-repeat;
   background-position: right 15px center;
   background-size: auto 15px;
@@ -928,6 +928,24 @@ label.radio-text {
   .main_page {
     margin-left: 35px;
     margin-right: 35px;
+  }
+
+  .article_image {
+    margin-right: 0;
+  }
+
+  .article:nth-child(n+1) {
+    margin-bottom: 40px;
+  }
+
+  .article::after {
+    content: " ";
+    position: absolute;
+    background: #eeeeee;
+    left: 38%;
+    bottom: -12px;
+    width: 90%;
+    height: 3px;
   }
 
   .sidebar {
