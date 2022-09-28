@@ -385,7 +385,7 @@ h2.trend-tittle {
 }
 
 .post_image {
-  max-width: 70px;
+  min-width: 70px;
   margin-right: 20px;
   padding: 0;
   box-sizing: border-box;
@@ -927,6 +927,7 @@ label.radio-text {
 
   .main_page {
     margin-left: 35px;
+    margin-right: 35px;
   }
 
   .sidebar {
