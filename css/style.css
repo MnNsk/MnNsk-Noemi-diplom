@@ -925,13 +925,22 @@ label.radio-text {
     margin-right: 1%;
   }
 
+  .trend:nth-child(even) {
+    flex-grow: 1;
+  }
+
   .main_page {
     margin-left: 35px;
     margin-right: 35px;
   }
 
+  .article {
+    position: relative;
+  }
+
   .article_image {
     margin-right: 0;
+    margin-bottom: 15px;
   }
 
   .article:nth-child(n+1) {
@@ -957,13 +966,21 @@ label.radio-text {
     flex-direction: column;
   }
 
+  .goods {
+    padding: 0 35px;
+  }
+
   .good-cont {
     margin: auto;
   }
 
   .good {
-    width: 25%; 
+    width: 40vw; 
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 50px;
   }
+
 
   .good:nth-child(3n+2), .good:first-child {
     margin: 0;
