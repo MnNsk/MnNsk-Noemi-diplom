@@ -327,6 +327,7 @@ body {
   
   .sidebar {
     width: 280px;
+    flex-shrink: 0;
     /* padding-right: 15px; */
   }
   
