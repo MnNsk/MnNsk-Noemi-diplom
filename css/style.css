@@ -138,10 +138,14 @@ margin-left: 35px;
   content: " ";
   position: absolute;
   background: #e1d9bd;
-  left: 48%;
+  left: 47%;
   bottom: -12px;
   width: 65px;
   height: 3px;
+}
+
+.trend-line {
+  max-width: 1200px;
 }
 
 .cont-trends {
@@ -868,6 +872,10 @@ label.radio-text {
 
   .cont-trends {
     flex-wrap: wrap;
+  }
+
+  .trend-good-tittles::after {
+    left: 45%;
   }
 
   .trend {
