@@ -600,7 +600,7 @@ label.radio-text {
 }
 
 .textarea-group {
-  width: 92%;
+  width: 100%;
   background-color: #f4f7f6;
   color: #d1d3d3;
   border: none;
@@ -608,6 +608,7 @@ label.radio-text {
   -moz-appearance: none;
   resize: none;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .textarea-group:focus {
