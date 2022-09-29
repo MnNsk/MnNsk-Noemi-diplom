@@ -1017,4 +1017,85 @@ label.radio-text {
     height: 20px;
     background-image: url("../svg/Shape 4 copy.svg");
   }
+
+  .blog-tittle {
+    max-width: 300px;
+    font-size: 1.7em;
+    line-height: 1.3;
+    padding-top: 40px;
+  }
+
+  .cont-trends {
+    flex-direction: column;
+  }
+
+  .trend, .trend:last-child {
+    width: 100%;
+    margin-bottom: 4px;
+  }
+
+  .content-page {
+    max-width: 330px;
+    flex-direction: column;
+    padding-top: 45px;
+  }
+
+  .article {
+    flex-direction: column;
+    max-width: 330px;
+    position: relative;
+  }
+
+  .article::after {
+    content: " ";
+    position: absolute;
+    background: #eeeeee;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 3px;
+  }
+
+  .article-image {
+    min-width: 330px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .sidebar {
+    width: 330px;
+    flex-shrink: 1;
+  }
+
+  .post-image {
+    max-width: 70px;
+  }
+
+  .trend-good-tittles::after {
+    left: 40%;
+  }
+
+  .goods {
+    max-width: 330px;
+    padding: 0 35px;
+  }
+
+  .good-cont {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .good {
+    max-width: 285px;
+    margin: 0 0 62px 0;
+  }
+
+  .good-body {
+    outline-offset: 20px;
+  }
+
+  .footer-page {
+    max-width: 330px;
+  }
+
 }
