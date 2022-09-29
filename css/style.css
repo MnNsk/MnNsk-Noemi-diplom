@@ -178,19 +178,19 @@ margin-left: 35px;
   z-index: 1;
 }
 
-.trend:nth-child(1) {
+.trend_one {
   background-image: url("../img/Trend-1.png");
 }
 
-.trend:nth-child(2) {
+.trend_two {
   background-image: url("../img/Trend-2.png");
 } 
 
-.trend:nth-child(3) {
+.trend_three {
   background-image: url("../img/Trend-3.png");
 }
 
-.trend:nth-child(4) {
+.trend_four {
   background-image: url("../img/Trend-4.png");
 }
 
@@ -766,13 +766,13 @@ label.radio-text {
   margin-bottom: 32px;
 }
 
-.good:first-child {
-  margin-left: 3%;
+.good_one {
+  margin-left: 30px;
 }
 
-.good:nth-child(3n+2) {
-  margin-left: 9.5%;
-  margin-right: 9.5%;
+.good_two {
+  margin-left: 55px;
+  margin-right: 55px;
 }
 
 .image-good {
@@ -913,19 +913,20 @@ label.radio-text {
   }
 
   .trend {
-    margin-bottom: 1%;
+    width: 49%;
+    margin-bottom: 4px;
     margin-right: 0;
   }
   
-  .trend, .trend:last-child {
+  .trend:last-child {
     width: 49%;
   }
 
-  .trend:nth-child(odd) {
-    margin-right: 1%;
+  .trend_odd {
+    margin-right: 4px;
   }
 
-  .trend:nth-child(even) {
+  .trend_even {
     flex-grow: 1;
   }
 
@@ -976,22 +977,22 @@ label.radio-text {
 
   .good {
     width: 40vw; 
-    margin-left: 4vw;
-    margin-right: 4vw;
+    margin-left: 35px;
+    margin-right: 35px;
     margin-bottom: 50px;
   }
 
 
-  .good:nth-child(3n+2), .good:first-child {
+  .good_two, .good:first-child {
     margin: 0;
   }
 
-  .good:nth-child(odd) {
-    margin-right: 1%;
+  .good_odd {
+    margin-right: 35px;
   }
 
-  .good:nth-child(even) {
-    margin-left: 1%;
+  .good_even {
+    margin-left: 35px;
   } 
 
   .good-body {
