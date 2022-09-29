@@ -943,7 +943,8 @@ label.radio-text {
  }
 
  .form-group-text {
-  margin-bottom: 22px;
+  display: inline-block;
+  margin-bottom: 10px;
  }
 
  .popup-close {
