@@ -931,6 +931,7 @@ label.radio-text {
 
   .good {
     width: 40vw; 
+    min-width: 290px;
     margin-left: 35px;
     margin-right: 35px;
     margin-bottom: 50px;
