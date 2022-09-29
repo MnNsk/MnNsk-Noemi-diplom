@@ -989,3 +989,32 @@ label.radio-text {
     max-width: 700px;
   }
 }
+
+/* Стили на телефон */
+
+@media (max-width: 640px) {
+
+  .header {
+    background-image: url("../img/banner-mobile.jpg");
+  }
+
+  .head-start {
+    flex-direction: column;
+    max-width: 330px;
+  }
+
+  .logo-image {
+    width: 270px;
+  }
+
+  .menu-item {
+    display: none;
+  }
+
+  .menu-burger .link {
+    display: inline-block;
+    width: 23px;
+    height: 20px;
+    background-image: url("../svg/Shape 4 copy.svg");
+  }
+}
