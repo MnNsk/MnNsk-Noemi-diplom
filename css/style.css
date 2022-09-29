@@ -938,7 +938,7 @@ label.radio-text {
   }*/
 
   .good {
-    width: 40vw; 
+    width: 37vw; 
     min-width: 290px;
     margin-left: 30px;
     margin-right: 30px;
@@ -946,11 +946,11 @@ label.radio-text {
   }
 
   .good_odd {
-    margin-right: 33px;
+    margin-right: 30px;
   }
 
   .good_even {
-    margin-left: 33px;
+    margin-left: 30px;
   } 
 
   .good-body {
