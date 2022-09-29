@@ -100,13 +100,13 @@ img {
 margin-left: 35px;  
 }
 
-.menu-item a {
+.menu-item .link {
   color: #ffffff;
   text-transform: uppercase;
   font-size: 12px;
 }
 
-.menu-item a:hover {
+.menu-item .link:hover {
   border-bottom: solid 1px #e1d9bd
 }
 
@@ -218,7 +218,7 @@ h2.trend-tittle {
   margin: 0;
 }
 
-.trend-tittle a {
+.trend-tittle .link {
   text-align: start;
   font-size: 20px;
   text-transform: uppercase;
@@ -227,7 +227,7 @@ h2.trend-tittle {
   margin: 0;
 }
 
-.trend-tittle a:hover {
+.trend-tittle .link:hover {
   color: #b59f5b;
 }
 
@@ -281,13 +281,13 @@ h2.trend-tittle {
   margin-right: 20px;
 }
 
-.tag a {
+.tag .link {
   text-decoration: none;
   color: #b59f5b;
   font-weight: bold;
 }
 
-.tag a:hover {
+.tag .link:hover {
   border-bottom: 2px solid #b59f5b;
 }
 
@@ -372,7 +372,7 @@ h2.trend-tittle {
   margin: 0;
 }
 
-.post-tittle a {
+.post-tittle .link {
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
@@ -640,14 +640,6 @@ label.radio-text {
   margin-bottom: 60px;
 }
 
-.tegs li, .thems li {
-  list-style-type: none;
-}
-
-.tegs a, .thems a {
-  text-decoration: none;  
-}
-
 .tegs ul {
   display: flex;
   flex-wrap: wrap;
@@ -661,7 +653,7 @@ label.radio-text {
   margin: 0;
 }
 
-.tegs a {
+.tegs .link {
   box-sizing: border-box;
   padding: 8px 15px;
   font-size: 12px;
@@ -671,7 +663,7 @@ label.radio-text {
   border: 3px solid #eeeeee;
 }
 
-.tegs a:hover {
+.tegs .link:hover {
   border: 3px solid #b59f5b;
 }
 
@@ -702,13 +694,13 @@ label.radio-text {
   height: 1px;
 }
 
-.thems a {
+.thems .link {
   font-size: 14px;
   font-weight: bold;
   color: #000000;
 }
 
-.thems a:hover {
+.thems .link:hover {
   color: #b59f5b;
 }
 
@@ -794,7 +786,7 @@ label.radio-text {
   margin: 20px 0;
 }
 
-.good-text a {
+.good-text .link {
   color: #b59f5b;
 }
 
@@ -874,7 +866,7 @@ label.radio-text {
   background-position: center center;
 }
 
-.copyright a {
+.copyright .link {
   display: block;
   margin-bottom: 40px;
   font-size: 12px;
@@ -901,7 +893,7 @@ label.radio-text {
     }
     
 
-  .menu-burger a {
+  .menu-burger .link {
     display: inline-block;
     width: 23px;
     height: 20px;
