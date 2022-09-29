@@ -56,7 +56,7 @@ img {
   margin-bottom: 60px;
 }
   
-.head_start {
+.head-start {
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -78,39 +78,39 @@ img {
   z-index: 1;
 }
 
-.logo_menu {
+.logo-menu {
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
 }
 
-.menu ul {
+.menu .menu-list {
  display: flex; 
  }
 
-.menu_item {
+.menu-item {
   display: flex;
   justify-content: space-around;
   align-items: center;
   box-sizing: border-box;
 }
 
-.menu_item:not(:first-child), .menu_item:not(:last-child) {
+.menu-item:not(:first-child), .menu-item:not(:last-child) {
 margin-left: 35px;  
 }
 
-.menu_item a {
+.menu-item a {
   color: #ffffff;
   text-transform: uppercase;
   font-size: 12px;
 }
 
-.menu_item a:hover {
+.menu-item a:hover {
   border-bottom: solid 1px #e1d9bd
 }
 
-.blog_tittle {
+.blog-tittle {
   max-width: 680px;
   padding: 65px 0px 0px 0px;
   margin: auto;
@@ -233,7 +233,7 @@ h2.trend-tittle {
 
 /* Основная страница */
 
-.content_page {
+.content-page {
  display: flex; 
  max-width: 1200px;
  padding: 64px 0 0 0;
@@ -241,7 +241,7 @@ h2.trend-tittle {
 }
 
 
-.main_page {
+.main-page {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -259,13 +259,13 @@ h2.trend-tittle {
   margin-bottom: 60px;
 }
 
-.article_image {
+.article-image {
   min-width: 381px;
   margin-right: 30px;
   box-sizing: border-box;
 }
 
-.article_text ul {
+.article-text ul {
   display: flex;
   justify-content: start;
   text-align: center;
@@ -291,33 +291,33 @@ h2.trend-tittle {
   border-bottom: 2px solid #b59f5b;
 }
 
-.article_tittle {
+.article-tittle {
   font-size: 20px;
   font-weight: bold;  
 }
 
-.article_tittle a {
+.article-tittle a {
   text-transform: uppercase;
   text-decoration: none;
   color: #0f0d0e;
 }
 
-.time_autor {
+.time-autor {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.article_date, .post_date {
+.article-date, .post-date {
   font-size: 12px;
   color: #888888;
 }
 
-.article_date {
+.article-date {
   margin-right: 15px;
 }
 
-.article_aut {
+.article-aut {
   font-size: 12px;
 }
 
@@ -332,11 +332,11 @@ h2.trend-tittle {
   flex-shrink: 0;
 }
 
-.new_posts {
+.new-posts {
  margin-bottom: 40px;
 }
 
-.sidebar_tittles {
+.sidebar-tittles {
   display: block;
   text-align: center;
   font-size: 14px;
@@ -347,11 +347,11 @@ h2.trend-tittle {
   margin-bottom: 40px;
 }
 
-.sidebar_tittles h4 {
+.sidebar-tittles h4 {
   text-align: center;
 }
 
-.sidebar_tittles::after {
+.sidebar-tittles::after {
   content: " ";
   position: absolute;
   background: #e1d9bd;
@@ -367,12 +367,12 @@ h2.trend-tittle {
   padding: 0;
 }
 
-.post_tittle {
+.post-tittle {
   padding: 0;
   margin: 0;
 }
 
-.post_tittle a {
+.post-tittle a {
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
@@ -384,7 +384,7 @@ h2.trend-tittle {
   margin-bottom: 20px;
 }
 
-.post_image {
+.post-image {
   min-width: 70px;
   margin-right: 20px;
   padding: 0;
@@ -392,13 +392,13 @@ h2.trend-tittle {
   font-size: 10px;
 }
 
-.post_text {
+.post-text {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
 }
 
-.post_date {
+.post-date {
   box-sizing: border-box;
   margin: 0;
 }
@@ -411,7 +411,7 @@ h2.trend-tittle {
   margin-bottom: 60px;
 }
 
-.search_input {
+.search-input {
   width: 85%;
   padding: 20px;
   border: none;
@@ -420,12 +420,12 @@ h2.trend-tittle {
   font-size: 13px;
 }
 
-.search_input:focus {
+.search-input:focus {
   outline: none; 
   border-bottom: 1px solid #b59f5b; 
 }
 
-.search_button {
+.search-button {
   box-sizing: border-box;
   padding: 15px;
   position: absolute;
@@ -441,7 +441,7 @@ h2.trend-tittle {
   background-size: 15px;
 }
 
-.search_button:hover {
+.search-button:hover {
  background-color: #323232; 
 }
 
@@ -452,7 +452,7 @@ h2.trend-tittle {
   margin-bottom: 60px;
 }
 
-.mailing_input {
+.mailing-input {
   width: 84%;
   padding: 20px;
   border: none;
@@ -462,12 +462,12 @@ h2.trend-tittle {
   margin-bottom: 15px;
 }
 
-.mailing_input:focus {
+.mailing-input:focus {
  outline: none; 
  border-bottom: 1px solid #b59f5b;
 }
 
-.mailing_button {
+.mailing-button {
  width: 99%; 
  padding: 20px 0;
  border: none;
@@ -475,11 +475,11 @@ h2.trend-tittle {
  
 }
 
-.mailing_button:hover {
+.mailing-button:hover {
  background-color: #323232; 
 }
 
-.button_text {
+.button-text {
   font-size: 14px;
   color: #ffffff;
   text-transform: uppercase;
@@ -798,38 +798,38 @@ label.radio-text {
   color: #b59f5b;
 }
 
-.good__footer {
+.good-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.good__prices {
+.good-prices {
   display: flex;
   flex-wrap: wrap;
 }
 
-.good__price {
+.good-price {
   font-size: 20px;
   font-weight: bold;
   width: 100%;
 }
 
-.good__price_old {
+.good-price-old {
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: line-through;
 }
 
-.good__button {
+.good-button {
   width: 140px;
 }
 
 /* Подвал */
 
-.footer_page {
+.footer-page {
   max-width: 1200px;
   box-sizing: border-box;
   margin: 0 auto 74px;
@@ -837,7 +837,7 @@ label.radio-text {
   padding: 32px 30px;  
 }
 
-.footer_page ul {
+.footer-page ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -845,30 +845,30 @@ label.radio-text {
   padding: 0;
 }
 
-.footer_page li {
+.footer-page li {
   list-style-type: none;
   padding: 15px;
 }
 
-.social_icon {
+.social-icon {
   display: block;
   width: 20px;
   height: 20px;
 }
 
-.icon_dribble {
+.icon-dribble {
   background-image: url("../svg/001-dribbble.svg");
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.icon_pinterest {
+.icon-pinterest {
   background-image: url("../svg/002-pinterest.svg");
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.icon_tumblr {
+.icon-tumblr {
   background-image: url("../svg/003-tumblr.svg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -887,7 +887,7 @@ label.radio-text {
 
 @media (min-width: 641px) and (max-width: 1199px) {
 
-  .head_start {
+  .head-start {
     max-width: 700px;
   }
 
@@ -895,13 +895,13 @@ label.radio-text {
     background-image: url("../img/banner-bg-tablet.jpg");
   }
 
-  .menu_item:not(:first-child), .menu_item:not(:last-child) {
+  .menu-item:not(:first-child), .menu-item:not(:last-child) {
     margin-right: 35px;  
     margin-left: 0;
     }
     
 
-  .menu_burger a {
+  .menu-burger a {
     display: inline-block;
     width: 23px;
     height: 20px;
@@ -929,7 +929,7 @@ label.radio-text {
     flex-grow: 1;
   }
 
-  .main_page {
+  .main-page {
     margin-left: 35px;
     margin-right: 35px;
   }
@@ -938,7 +938,7 @@ label.radio-text {
     position: relative;
   }
 
-  .article_image {
+  .article-image {
     margin-right: 0;
     margin-bottom: 15px;
   }
