@@ -523,6 +523,8 @@ display: flex;
   margin-bottom: 25px;
 }
 
+
+
 .popup-text {
   display: inline-block;
   margin-bottom: 5px;
@@ -614,8 +616,8 @@ label.radio-text {
  }
 
  .popup-close {
-  width: 15px;
-  height: 15px;
+  width: 18px;
+  height: 18px;
   background-image: url("../svg/form-x.svg");
   background-color: transparent;
   border: none;
@@ -931,6 +933,26 @@ label.radio-text {
   .sidebar {
     margin-right: 35px;
   }
+
+  /* Попап на планшет*/
+
+  .radio-text::before {
+    width: 22px;
+    height: 22px;
+    background-size: 22px;
+ }
+
+ .form-group-text {
+  margin-bottom: 22px;
+ }
+
+ .popup-close {
+  width: 27px;
+  height: 27px;
+  top: -30px;
+}
+
+/* ------------------------------- */
 
   .goods {
     padding: 0 35px;
