@@ -945,16 +945,15 @@ label.radio-text {
     margin: auto;
   }
 
+  /* .good_two, .good:first-child { 
+    margin: 0;
+  }*/
+
   .good {
     width: 40vw; 
     margin-left: 35px;
     margin-right: 35px;
     margin-bottom: 50px;
-  }
-
-
-  .good_two, .good:first-child {
-    margin: 0;
   }
 
   .good_odd {
