@@ -923,7 +923,7 @@ label.radio-text {
     margin-bottom: 15px;
   }
 
-  .article::after {
+  .article:not(:last-child):after {
     content: " ";
     position: absolute;
     background: #eeeeee;
