@@ -878,6 +878,10 @@ label.radio-text {
     left: 45%;
   }
 
+  .trend-line {
+    max-width: 700px;
+  }
+
   .trend {
     width: 49%;
     margin-bottom: 4px;
@@ -896,8 +900,11 @@ label.radio-text {
     flex-grow: 1;
   }
 
+  .content-page {
+    max-width: 700px;
+  }
+
   .main-page {
-    margin-left: 35px;
     margin-right: 35px;
   }
 
@@ -927,6 +934,7 @@ label.radio-text {
 
   .goods {
     padding: 0 35px;
+    max-width: 700px;
   }
 
   .good-cont {
@@ -955,5 +963,9 @@ label.radio-text {
 
   .good-body {
     outline-offset: 20px;
+  }
+
+  .footer-page {
+    max-width: 700px;
   }
 }
