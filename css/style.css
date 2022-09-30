@@ -1102,6 +1102,32 @@ label.radio-text {
     font-size: 16px;
   }
 
+  /* Попап на телефон*/
+
+  .popup {
+    max-width: 300px;
+    padding: 30px 20px 30px 20px;
+  }
+
+  .radio-text::before {
+    width: 22px;
+    height: 22px;
+    background-size: 22px;
+ }
+
+ .form-group-text {
+  display: inline-block;
+  margin-bottom: 10px;
+ }
+
+ .popup-close {
+  width: 27px;
+  height: 27px;
+  top: -35px;
+}
+
+/* ------------------------------- */
+
   .post-image {
     max-width: 70px;
   }
