@@ -1141,6 +1141,7 @@ label.radio-text {
 
   .cont-trends {
     flex-wrap: wrap;
+    flex-direction: row;
   }
 
   .trend-good-tittles::after {
@@ -1165,4 +1166,7 @@ label.radio-text {
     flex-grow: 1;
   }
 
+  .trend-border {
+    padding: 20px;
+  }
 }
