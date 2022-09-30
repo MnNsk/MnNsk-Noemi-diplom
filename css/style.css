@@ -1134,3 +1134,35 @@ label.radio-text {
   }
 
 }
+
+/* Ландшафтная ориентация телефона */
+
+@media (max-width: 640px) and (orientation:landscape) {
+
+  .cont-trends {
+    flex-wrap: wrap;
+  }
+
+  .trend-good-tittles::after {
+    left: 45%;
+  }
+
+  .trend {
+    width: 49%;
+    margin-bottom: 4px;
+    margin-right: 0;
+  }
+  
+  .trend:last-child {
+    width: 49%;
+  }
+
+  .trend_odd {
+    margin-right: 4px;
+  }
+
+  .trend_even {
+    flex-grow: 1;
+  }
+
+}
