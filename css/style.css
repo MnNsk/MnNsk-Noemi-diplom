@@ -871,6 +871,8 @@ label.radio-text {
     width: 23px;
     height: 20px;
     background-image: url("../svg/Shape 4 copy.svg");
+    background-color: transparent;
+    border: none;
     right: 0;
     top: 0;
   } 
@@ -1018,6 +1020,8 @@ label.radio-text {
     width: 23px;
     height: 20px;
     background-image: url("../svg/Shape 4 copy.svg");
+    background-color: transparent;
+    border: none;
     right: 0;
     top: 0;
   }
