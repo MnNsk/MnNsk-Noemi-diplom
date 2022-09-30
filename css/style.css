@@ -866,12 +866,12 @@ label.radio-text {
     }
     
 
-  .menu-burger .link {
+  /* .menu-burger .link {
     display: inline-block;
     width: 23px;
     height: 20px;
     background-image: url("../svg/Shape 4 copy.svg");
-  }
+  } */
 
   .cont-trends {
     flex-wrap: wrap;
@@ -1011,12 +1011,12 @@ label.radio-text {
     display: none;
   }
 
-  .menu-burger .link {
+  /* .menu-burger .link {
     display: inline-block;
     width: 23px;
     height: 20px;
     background-image: url("../svg/Shape 4 copy.svg");
-  }
+  } */
 
   .blog-tittle {
     max-width: 300px;
