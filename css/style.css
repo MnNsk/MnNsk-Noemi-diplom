@@ -1005,6 +1005,7 @@ label.radio-text {
 
   .header {
     background-image: url("../img/banner-mobile.jpg");
+    margin-bottom: 40px;
   }
 
   .head-start {
@@ -1093,6 +1094,10 @@ label.radio-text {
   .sidebar {
     width: 330px;
     flex-shrink: 1;
+  }
+
+  .sidebar-tittles {
+    font-size: 16px;
   }
 
   .post-image {
