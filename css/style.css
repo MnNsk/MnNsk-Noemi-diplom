@@ -1178,6 +1178,7 @@ label.radio-text {
     width: 49%;
     margin-bottom: 4px;
     margin-right: 0;
+    min-height: 230px;
   }
   
   .trend:last-child {
